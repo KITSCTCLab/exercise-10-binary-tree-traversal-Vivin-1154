@@ -32,6 +32,7 @@ flag = True
 root = None
 for item in input_data.split(', '):
     if flag is True:
+        
         root = insert(None, int(item))
         flag = False
     else:
